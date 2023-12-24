@@ -1,0 +1,23 @@
+POST : http://localhost:8182/api/products
+DATA : RAW , JSON
+{
+    "productName" : "mouse",
+    "productDescription" : "ROG mouse",
+    "price" : 1800
+}
+
+
+<GET_USER_BY_ID>
+GET : http://localhost:8182/api/products/{ID}  
+DATA : NONE
+
+PUT : http://localhost:8182/api/products/{ID}
+DATA: RAW , JSON
+{
+    "productId" : 1,
+    "productName" : "mouse",
+    "productDescription" : "ROG2 mouse",
+    "price" : 1800
+}
+DELETE : http://localhost:8182/api/products/{ID}  
+DATA : NONE

@@ -1,0 +1,61 @@
+---- Inserting 15 rows of data into microservices.msd_inventory
+--
+---- Row 1
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (1, 'ProductA', 'DescriptionA', 10, 'CategoryA', 'SupplierA', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 2
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (2, 'ProductB', 'DescriptionB', 15, 'CategoryB', 'SupplierB', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 3
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (3, 'ProductC', 'DescriptionC', 20, 'CategoryC', 'SupplierC', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 4
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (4, 'ProductD', 'DescriptionD', 12, 'CategoryD', 'SupplierD', false, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 5
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (5, 'ProductE', 'DescriptionE', 18, 'CategoryE', 'SupplierE', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 6
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (6, 'ProductF', 'DescriptionF', 25, 'CategoryF', 'SupplierF', false, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 7
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (7, 'ProductG', 'DescriptionG', 30, 'CategoryG', 'SupplierG', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 8
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (8, 'ProductH', 'DescriptionH', 14, 'CategoryH', 'SupplierH', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 9
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (9, 'ProductI', 'DescriptionI', 22, 'CategoryI', 'SupplierI', false, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 10
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (10, 'ProductJ', 'DescriptionJ', 8, 'CategoryJ', 'SupplierJ', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 11
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (11, 'ProductK', 'DescriptionK', 17, 'CategoryA', 'SupplierA', false, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 12
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (12, 'ProductL', 'DescriptionL', 13, 'CategoryB', 'SupplierB', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 13
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (13, 'ProductM', 'DescriptionM', 28, 'CategoryC', 'SupplierC', false, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 14
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (14, 'ProductN', 'DescriptionN', 9, 'CategoryD', 'SupplierD', true, current_timestamp, 'Admin', current_timestamp, 'Admin');
+--
+---- Row 15
+--INSERT INTO microservices.msd_inventory (product_id, product_name, product_description, quantity, category, supplier, in_stock, created_at, created_by, updated_at, updated_by)
+--VALUES (15, 'ProductO', 'DescriptionO', 16, 'CategoryE', 'SupplierE', false, current_timestamp, 'Admin', current_timestamp, 'Admin');

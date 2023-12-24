@@ -1,0 +1,51 @@
+POST : http://localhost:8185/api/order
+DATA : RAW , JSON
+{
+    "items" :
+    [
+        {
+            "productId" : 1,
+            "productName" : "Phone",
+            "quantity" : 25,
+            "price" : 45000
+        },
+        {
+            "productId" : 2,
+            "productName" : "Box",
+            "quantity" : 5,
+            "price" : 5000
+        }
+    ]
+}
+
+
+<GET_USER_BY_ID>
+GET : http://localhost:8185/api/order/{ID}  
+DATA : NONE
+
+PUT : http://localhost:8185/api/order/{ID}
+DATA: RAW , JSON
+{
+    "orderId" : 4,
+    "items" :
+    [
+        {
+            "itemId" : 107,
+            "productId" : 1,
+            "productName" : "Phone Pro",
+            "quantity" : 250,
+            "price" : 500000
+        },
+        {
+            "itemId": 108,
+            "productId" : 2,
+            "productName" : "Box",
+            "quantity" : 5,
+            "price" : 5000
+        }
+    ]
+}
+
+DELETE : http://localhost:8185/api/order/{ID}  
+DATA : NONE
+

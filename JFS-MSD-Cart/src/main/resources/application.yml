@@ -1,0 +1,24 @@
+server:
+  port: 8184
+
+#MySQL Database Configuration:
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: Sourav#8699
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+    hibernate:
+      ddl-auto: create-drop
+    database: mysql
+    show-sql: true
+
+
+
+
